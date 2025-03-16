@@ -1,0 +1,46 @@
+local scripts = {
+    [286090429] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/Arsenal-Aimbot/refs/heads/main/arsenal%20aimbot%20silent%20aim',
+        name = 'Arsenal'
+    },
+    [6872265039] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/Roblox-Bedwars-Script/refs/heads/main/Roblox%20Bedwars%20Script',
+        name = 'BedWars'
+    },
+    [140113198028589] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/Race-RNG-Script/refs/heads/main/Race%20RNG%20Script',
+        name = 'Race RNG'
+    },
+    [17800899459] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/Sword-Clashers-Simulator/refs/heads/main/Sword%20Clashers%20Simulator',
+        name = 'Sword Clashers Simulator'
+    },
+    [125723653259639] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/Drill-Digging-Simulator-Script/refs/heads/main/Drill%20Digging%20Simulator%20Script',
+        name = 'Drill Digging Simulator'
+    },
+    [18901165922] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/pets-go-script/refs/heads/main/pets%20go%20script',
+        name = 'Pets Go'
+    }
+}
+
+local placeId = game.PlaceId
+
+if scripts[placeId] then
+
+    loadstring(game:HttpGet(scripts[placeId].url))()
+
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "Script Loaded",
+        Text = scripts[placeId].name,
+        Duration = 5
+    })
+else
+
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "Unsupported Game",
+        Text = "Find Supported Games Here - https://discord.gg/jqpJKB8eMJ.",
+        Duration = 5
+    })
+end
