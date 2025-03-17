@@ -22,6 +22,10 @@ local scripts = {
     [18901165922] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/pets-go-script/refs/heads/main/pets%20go%20script',
         name = 'Pets Go'
+    },
+    [16732694052] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/fisch-script/refs/heads/main/fisch%20script',
+        name = 'Fisch'
     }
 }
 
