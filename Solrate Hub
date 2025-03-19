@@ -26,6 +26,10 @@ local scripts = {
     [16732694052] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/fisch-script/refs/heads/main/fisch%20script',
         name = 'Fisch'
+    },
+    [3101667897] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/Legends-Of-Speed-Script/refs/heads/main/Legends%20Of%20Speed%20Script',
+        name = 'Legends Of Speed'
     }
 }
 
