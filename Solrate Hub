@@ -3,10 +3,6 @@ local scripts = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/Arsenal-Aimbot/refs/heads/main/arsenal%20aimbot%20silent%20aim',
         name = 'Arsenal'
     },
-    [6872265039] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/Roblox-Bedwars-Script/refs/heads/main/Roblox%20Bedwars%20Script',
-        name = 'BedWars'
-    },
     [140113198028589] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/Race-RNG-Script/refs/heads/main/Race%20RNG%20Script',
         name = 'Race RNG'
