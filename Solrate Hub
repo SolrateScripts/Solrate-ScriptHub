@@ -26,6 +26,10 @@ local scripts = {
     [3101667897] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/Legends-Of-Speed-Script/refs/heads/main/Legends%20Of%20Speed%20Script',
         name = 'Legends Of Speed'
+    },
+    [15862090066] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/make-and-sell-weapons-script/refs/heads/main/make%20and%20sell%20weapons%20script',
+        name = 'Make And Sell Weapons'
     }
 }
 
