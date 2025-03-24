@@ -38,6 +38,10 @@ local scripts = {
     [142823291] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/MM2-Script/refs/heads/main/MM2%20Script',
         name = 'MM2'
+    },
+    [16288616721] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/Skateboard-Obby-Script/refs/heads/main/Skateboard%20Obby%20Script',
+        name = 'Skateboard Obby'
     }
 }
 
