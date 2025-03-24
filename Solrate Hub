@@ -34,6 +34,10 @@ local scripts = {
     [18207529184] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/Become-A-Plane-And-Fly-Script/refs/heads/main/Become%20A%20Plane%20And%20Fly%20Script',
         name = 'Become A Plane And Fly'
+    },
+    [142823291] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/MM2-Script/refs/heads/main/MM2%20Script',
+        name = 'MM2'
     }
 }
 
